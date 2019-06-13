@@ -1,0 +1,12 @@
+This link helped me set up dev enviromnet, needed link below to set up express server, then addtional
+fiddling with the package.json to get webpack devserver set up
+https://www.codementor.io/seyiadeleke42/setting-up-a-react-development-environment-from-scratch-hbodiez1c
+
+
+This link helped me run the express server
+https://timonweb.com/tutorials/how-to-enable-ecmascript-6-imports-in-nodejs/
+
+
+This link helped me start a git repo with existing code
+https://git-scm.com/docs/git-init
+
