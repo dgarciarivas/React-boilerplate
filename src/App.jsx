@@ -20,15 +20,15 @@ const rootEl = document.getElementById('root');
                  };
             }else if(window.localStorage.storage === 'start'){
                 var first = prompt('Empieza la lista!');
-                let items = {'start': first}
+                let items = {'start': []}
                 window.localStorage.setItem('storage', JSON.stringify(items));
 
 
             }else {
             	 
-                console.log('populating list names');
-                var storage = JSON.parse(window.localStorage.getItem('storage'));
-                console.log('finished populating');
+                console.log('gathering list names');
+                let storage = JSON.parse(window.localStorage.getItem('storage'));
+                console.log('finished gathering', Object.keys(storage));
                 this.state={
                     Titulo: undefined,
                     titulotxt: undefined,

@@ -18,4 +18,5 @@ This link helped me learn export and import with react
 https://www.geeksforgeeks.org/reactjs-importing-exporting/
 
 
-
+This link helped me undertand the diff between var and let
+https://www.geeksforgeeks.org/difference-between-var-and-let-in-javascript/
