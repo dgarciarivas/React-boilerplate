@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": " webpack-dev-server --loglevel=silent --config webpack.config.js"
+    "start": " webpack-dev-server --loglevel=silent --config webpack.config.js",
+    "build": " webpack --loglevel=silent --config webpack.production.config.js"
   },
   "author": "Diego Garciarivas",
   "license": "ISC",

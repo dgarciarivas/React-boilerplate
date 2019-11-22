@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import LosPendientes from './components/LosPendientes.jsx';
+
 
 const rootEl = document.getElementById('root');
 
